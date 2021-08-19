@@ -1,0 +1,30 @@
+.skills{
+    padding-top: 40px;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-size: 30px;
+
+    ul{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .line{
+        width: 80vw;
+    }
+    .title{
+        padding-top: 40px;
+    }
+
+    .icons{
+        display: grid;
+        width: 50vw;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 50px;
+
+        .icon{
+            margin-top: 30px;
+        }
+    }
+
+}

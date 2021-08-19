@@ -1,0 +1,27 @@
+.aboutMe{
+    height: auto;
+    margin-left: 50px;
+    padding-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .descricao{
+        text-align: justify;
+        margin: 40px;
+    }
+
+    .social{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon{
+        font-size: 50px;
+        color: whitesmoke;
+    }
+    .icon:hover{
+        color: rgb(3, 238, 148);
+    }
+    img{
+        margin-left: 80px;
+    }
+}

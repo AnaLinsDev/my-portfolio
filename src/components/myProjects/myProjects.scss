@@ -1,0 +1,36 @@
+.projects{
+    height: 400px;
+    padding-top: 40px;
+    margin-bottom: 400px;
+    font-size: 30px;
+    margin-left: 40px;
+
+    .title{
+        padding-top: 40px;
+    }
+    .line{
+        width: 80vw;
+    }
+
+    .conteiner{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-bottom: 200px;
+    }
+
+    .projetoPreview{
+        margin: 10px;
+        border-radius: 5px;
+        width: 400px;
+        height: 200px;
+        font-size: 20px;
+        background-color: whitesmoke;
+        color: black;
+
+        h1{
+            margin: 0 auto;
+            
+
+        }
+    }
+}
