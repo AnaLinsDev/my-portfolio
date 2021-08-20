@@ -22,14 +22,14 @@ const AboutMe = () => {
         <br/> <br/>
 
         <div className='social'>
-            <a href='https://www.instagram.com/ana_frontdev/' target='_blank'>
+            <a href='https://www.instagram.com/ana_frontdev/' target='_blank'  rel="noreferrer" >
                 <FaInstagram  className='icon'/> 
             </a>
             
-            <a href='https://www.linkedin.com/in/ana-j%C3%BAlia-lins-devbrasil/' target='_blank' >
+            <a href='https://www.linkedin.com/in/ana-j%C3%BAlia-lins-devbrasil/' target='_blank' rel="noreferrer"  >
             <FaLinkedin className='icon'/>
             </a>
-            <a href='https://github.com/AnaLinsDev' target='_blank' >
+            <a href='https://github.com/AnaLinsDev' target='_blank'  rel="noreferrer" >
             <FaGithub className='icon'/>
             </a>
         </div>

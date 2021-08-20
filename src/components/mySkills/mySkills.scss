@@ -1,8 +1,9 @@
 .skills{
     padding-top: 40px;
-    margin-left: 50px;
     color: whitesmoke;
     font-size: 30px;
+    margin-left: 60px;
+
 
     ul{
         padding-top: 40px;
@@ -18,7 +19,7 @@
 
     .icons{
         display: grid;
-        width: 50vw;
+        width: 60vw;
         grid-template-columns: repeat(4, 1fr);
         font-size: 50px;
 
@@ -27,4 +28,28 @@
         }
     }
 
+}
+
+
+
+@media (max-width: 650px)
+{
+    .skills{
+        margin-left: 0px;
+        font-size: 35px;
+        width: 100vw;
+        .icons{
+            width: 100vw;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        ul{
+            width: 100vw;
+            font-size: 20px;
+        
+        li{
+            margin-top: 40px;
+        }
+
+        }
+    }    
 }

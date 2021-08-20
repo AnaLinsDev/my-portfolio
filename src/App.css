@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 html{
-  background-image: linear-gradient(to bottom right, 
-  #860497,
-  rgb(163, 40, 9), 
-  #bd9208);
-  
+
+  background-color: black;
   color: whitesmoke;
   background-attachment: fixed;
   scroll-behavior: smooth;

@@ -17,3 +17,18 @@
         color: whitesmoke;
     }
 }
+
+
+
+@media (max-width: 350px)
+{
+    .menu{
+        font-size: 35px;
+
+        a{
+            text-align: center;
+            border: 1px solid black;
+            padding-right: 10px;
+        }
+    }
+}

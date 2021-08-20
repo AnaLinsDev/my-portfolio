@@ -25,3 +25,25 @@
         margin-left: 80px;
     }
 }
+
+
+@media (max-width: 850px)
+
+{
+    .aboutMe{
+        margin-left: 0px;
+        grid-template-columns: 1fr;
+        width: 200vw;
+
+        .descricao{
+            text-align: justify;
+            margin-left: 20px;
+            width: 80vw;
+        }
+
+        img{
+            margin-left: 20px;
+        }
+    }
+
+}
